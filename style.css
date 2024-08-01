@@ -1,6 +1,5 @@
 body {
     font-family: sans-serif;
-    background-color: rgb(255, 232, 189);
 }
 
 header a {
@@ -43,6 +42,12 @@ h1:hover {
     -webkit-text-fill-color: transparent;
 }
 
+.site:hover {
+    background-image: linear-gradient(to right, red, orange, yellow, green, lightblue, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .sites {
     display: flex;
     flex-wrap: wrap;
@@ -60,11 +65,15 @@ h1:hover {
     margin: 10px;
 }
 
-.text-big {
+.text-big:hover {
     text-align: center;
     background-image: linear-gradient(to right, red, orange, yellow, green, lightblue, blue, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.text-big {
+    text-align: center;
 }
 
 .link-text {
