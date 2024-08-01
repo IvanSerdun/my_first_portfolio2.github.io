@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(255, 232, 189);
+}
+
+header a {
+    background-color: orangered;
+    padding: 20px;
+    border: orange 5px solid ;
+    border-radius: 31px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.back {
+    background-color: orangered;
+    padding: 20px;
+    border: orange 5px solid ;
+    border-radius: 31px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 50px;
+}
+
+header {
+    margin: 35px;
+}
+
+header a:hover {
+    background-image: linear-gradient(to right, orange, orangered);
+    border: none;
+    transition: all 3s linear;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1:hover {
+    background-image: linear-gradient(to right, red, orange, yellow, green, lightblue, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sites {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px orangered solid;
+    padding: 15px;
+}
+
+.site {
+    border: 3px orange solid;
+    border-radius: 31px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.text-big {
+    text-align: center;
+    background-image: linear-gradient(to right, red, orange, yellow, green, lightblue, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.link-text {
+    text-decoration: none;
+    color: orange;
+}
+
+.site p {
+    margin: 15px;
+}
